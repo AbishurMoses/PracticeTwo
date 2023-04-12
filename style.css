@@ -1,4 +1,21 @@
+:root{
+    --orange: orange;
+    --blue: blue;
+    --red: red;
+    --yellow: yellow;
+}
+
 body, main {
     padding: 0px;
     margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--yellow);
 }
